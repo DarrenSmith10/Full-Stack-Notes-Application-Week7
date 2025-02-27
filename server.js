@@ -8,7 +8,7 @@ const { v4: uuidv4 } = require("uuid");
 const app = express();
 
 // Define the port the server will listen on
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 1000;
 
 // Middleware to parse incoming JSON requests
 app.use(express.json());
