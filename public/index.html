@@ -10,17 +10,32 @@
 
 <body>
     <div class="container">
-        <h1>Data List</h1>
+        <h1>Note Taker List</h1>
         <ul id="data-list"></ul>
         <form id="data-form">
             <input type="text" id="data-input" placeholder="Enter new data" required>
-            <button type="submit">Add Data</button>
+            <button type="submit" button class="Addbutton">Add Data</button>
+            
         </form>
-        
-        <form action="data-delete" method="DELETE">
-            <button type="submit">Delete</button>
+        <!-- <form id="update-form">
+            <input type="text" id="data-input" placeholder="Update new data" required>
+            <button id="update-data" type="button">Update</button>
         </form>
+        <form id="delete-form">
+            <button id="delete-data" type="button">Delete</button>
+        </form> -->
         
+        
+            
+            
+        
+        
+<!-- 
+        <form id="data-form" method="POST">
+            <input type="hidden" name="_method" value="PUT">
+            <input type="hidden" name="_token" value="{{ csrf_token() }}">
+            <button type="click">update now</button>
+        </form> -->
         <!-- <ul id = "data-update">
             <button type="update">update now</button>
         </ul> -->

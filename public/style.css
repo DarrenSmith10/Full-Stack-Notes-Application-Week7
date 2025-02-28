@@ -1,20 +1,27 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    /* background-color: #f4f4f4; */
+    background-color:  rgb(205 221 199);
     text-align: center;
+    font-weight: bold;
+    -webkit-text-stroke-color: 2px white;
     margin: 20px;
 }
 
 .container {
     max-width: 400px;
     margin: 0 auto;
-    background: white;
+    /* background: white; */
+    background-image: url("MyOwnOldPaper.png");
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
 }
 
 h1 {
     color: #333;
+    -webkit-text-stroke: 0.6px rgb(255, 255, 255);
 }
 
 ul {
@@ -23,10 +30,13 @@ ul {
 }
 
 li {
-    background: #e3e3e3;
+    /* background: #e3e3e3; */
     margin: 5px 0;
     padding: 10px;
+    -webkit-text-stroke: 0.1px rgb(251, 251, 251);
     border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 form {
@@ -48,8 +58,40 @@ button {
     color: white;
     cursor: pointer;
     border-radius: 5px;
+    box-shadow: 1px 9px 8px;
 }
 
+.Deletebutton {
+    padding: 1px;
+    width: 10%;
+    border: none;
+    background: #e81010;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 1px 9px 8px;
+}
+
+.Editbutton {
+    padding: 1px;
+    width: 10%;
+    border: none;
+    background: #064314;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 1px 9px 8px;
+}
+
+
 button:hover {
+    background: #218838;
+}
+
+.Deletebutton:hover {
+    background: #218838;
+}
+
+.Editbutton:hover {
     background: #218838;
 }
